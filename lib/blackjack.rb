@@ -54,6 +54,9 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  welcome
+  initial_round
+  if initial_round > 21
+    end_game
 end
     
